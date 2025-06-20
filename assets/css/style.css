@@ -1,0 +1,367 @@
+/* Custom CSS cho ứng dụng quản lý nhà cung cấp */
+
+/* General Styles */
+body {
+  background-color: #f8f9fc;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.card-header {
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+/* Border left cards for dashboard */
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+
+.border-left-warning {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+/* Tables */
+.table {
+  color: #5a5c69;
+}
+
+.table thead th {
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  font-weight: 600;
+  color: #5a5c69;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fc;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 0.35rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+
+.btn-success {
+  background-color: #1cc88a;
+  border-color: #1cc88a;
+}
+
+.btn-success:hover {
+  background-color: #17a673;
+  border-color: #169b6b;
+}
+
+.btn-info {
+  background-color: #36b9cc;
+  border-color: #36b9cc;
+}
+
+.btn-info:hover {
+  background-color: #2c9faf;
+  border-color: #2a96a5;
+}
+
+.btn-warning {
+  background-color: #f6c23e;
+  border-color: #f6c23e;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #f4b619;
+  border-color: #f4b30d;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #e74a3b;
+  border-color: #e74a3b;
+}
+
+.btn-danger:hover {
+  background-color: #e02d1b;
+  border-color: #d52a1a;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.375rem 0.75rem;
+}
+
+.badge-success {
+  background-color: #1cc88a;
+}
+
+.badge-warning {
+  background-color: #f6c23e;
+  color: #fff;
+}
+
+.badge-danger {
+  background-color: #e74a3b;
+}
+
+.badge-info {
+  background-color: #36b9cc;
+}
+
+.badge-secondary {
+  background-color: #858796;
+}
+
+/* Forms */
+.form-control {
+  border: 1px solid #d1d3e2;
+  border-radius: 0.35rem;
+  color: #6e707e;
+  font-size: 0.875rem;
+}
+
+.form-control:focus {
+  border-color: #bac8f3;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #5a5c69;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Pagination */
+.pagination {
+  margin-bottom: 0;
+}
+
+.page-link {
+  border: 1px solid #dddfeb;
+  color: #5a5c69;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  border-radius: 0;
+}
+
+.page-link:hover {
+  background-color: #eaecf4;
+  border-color: #dddfeb;
+  color: #5a5c69;
+}
+
+.page-item.active .page-link {
+  background-color: #4e73df;
+  border-color: #4e73df;
+  color: #fff;
+}
+
+/* Alerts */
+.alert {
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.alert-success {
+  background-color: #d1edff;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeaa7;
+  color: #856404;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #858796;
+}
+
+.breadcrumb-item a {
+  color: #5a5c69;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #4e73df;
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: #858796;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.dropdown-item {
+  color: #5a5c69;
+  font-size: 0.875rem;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f8f9fc;
+  color: #5a5c69;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fc !important;
+  border-top: 1px solid #e3e6f0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-responsive {
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+  }
+
+  .btn-group-sm > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Loading Spinner */
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e73df;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e59d9;
+}
+
+/* Text colors */
+.text-gray-800 {
+  color: #5a5c69 !important;
+}
+
+.text-gray-300 {
+  color: #dddfeb !important;
+}
+
+/* Currency input formatting */
+.currency-input {
+  text-align: right;
+}
+
+/* Image thumbnail */
+.img-thumbnail {
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .card {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  .navbar,
+  .breadcrumb,
+  .btn,
+  .pagination {
+    display: none !important;
+  }
+}
